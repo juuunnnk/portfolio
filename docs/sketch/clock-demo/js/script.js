@@ -213,6 +213,7 @@
             hourTorus.position.z = 3 * hourSin;
             hourTorus.rotation.y = 2 * Math.PI - detailedHour * Math.PI / 6;
 
+
             // rendering
             renderer.render(scene, camera);
             // animation
