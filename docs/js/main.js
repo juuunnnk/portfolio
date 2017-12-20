@@ -1,9 +1,1 @@
-var animData = {
-    container: document.getElementById('lottie'),
-    renderer: 'svg',
-    loop: false,
-    prerender: true,
-    autoplay: true,
-    path: './js/data.json'
-};
-var anim = lottie.loadAnimation(animData);
+var animData={container:document.getElementById("lottie"),renderer:"svg",loop:!1,prerender:!0,autoplay:!0,path:"./json/data.json"},anim=lottie.loadAnimation(animData);
