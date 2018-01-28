@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111428036-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111428036-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-111428036-1');
-</script>
-
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+    gtag('config', 'UA-111428036-1');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -26,13 +28,14 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700i" rel="stylesheet">
   <link rel="stylesheet" href="../../css/style.css">
   <script src="./lib/three_84.js"></script>
+  <script src="./lib/OrbitControls.js"></script>
   <script src="./js/script.js"></script>
 </head>
 <body>
   <div class="main-sketch">
     <header class="header">
       <h1 class="sketch-title">CLOCK DEMO</h1>
-<a href="../../" class="button">BACK</a>
+      <a href="../../" class="button">BACK</a>
     </header>
     <footer class="footer">
       <p>©2017 juuunnnk</p>
@@ -40,4 +43,5 @@
   </div>
   <div id="webgl"></div>
 </body>
+
 </html>
